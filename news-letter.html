@@ -4,158 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>News-letter</title>
+    <title>Roqqu Newsletter</title>
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/visby');
+    </style>
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/satoshi?styles=135009,135004,135005,135006,135007,135008,135002,135003,135000,135001');
+    </style>
     <style type="text/css">
-      /* FONT BEGINING */
-
-      @font-face {
-        font-family: "titlinggothicfb";
-        src: url("./fonts/titlinggothicfbnor-black-webfont.woff2")
-            format("woff2"),
-          url("./fonts/titlinggothicfbnor-black-webfont.woff") format("woff");
-        font-weight: 800;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "titlinggothicfb";
-        src: url("./fonts/titlinggothicfbnor-bold-webfont.woff2")
-            format("woff2"),
-          url("./fonts/titlinggothicfbnor-bold-webfont.woff") format("woff");
-        font-weight: 700;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "titlinggothicfb";
-        src: url("./fonts/titlinggothicfbnor-light-webfont.woff2")
-            format("woff2"),
-          url("./fonts/titlinggothicfbnor-light-webfont.woff") format("woff");
-        font-weight: 200;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "titlinggothicfb";
-        src: url("./fonts/titlinggothicfbnor-med-webfont.woff2") format("woff2"),
-          url("./fonts/titlinggothicfbnor-med-webfont.woff") format("woff");
-        font-weight: 500;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: "titlinggothicfb";
-        src: url("./fonts/titlinggothicfbnor-nor-webfont.woff2") format("woff2"),
-          url("./fonts/titlinggothicfbnor-nor-webfont.woff") format("woff");
-        font-weight: 600;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: "titlinggothicfb";
-        src: url("./fonts/titlinggothicfbnor-reg-webfont.woff2") format("woff2"),
-          url("./fonts/titlinggothicfbnor-reg-webfont.woff") format("woff");
-        font-weight: 300;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "titlinggothicfb";
-        src: url("./fonts/titlinggothicfbnor-stand-webfont.woff2")
-            format("woff2"),
-          url("./fonts/titlinggothicfbnor-stand-webfont.woff") format("woff");
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "titlinggothicfb";
-        src: url("./fonts/titlinggothicfbnor-thin-webfont.woff2")
-            format("woff2"),
-          url("./fonts/titlinggothicfbnor-thin-webfont.woff") format("woff");
-        font-weight: 100;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbybold_italic-webfont.woff2") format("woff2"),
-          url("./fonts/visbybold_italic-webfont.woff") format("woff");
-        font-weight: bold;
-        font-style: italic;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbybold-webfont.woff2") format("woff2"),
-          url("./fonts/visbybold-webfont.woff") format("woff");
-        font-weight: bold;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbyextrabold_italic-webfont.woff2") format("woff2"),
-          url("./fonts/visbyextrabold_italic-webfont.woff") format("woff");
-        font-weight: bolder;
-        font-style: italic;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbyextrabold-webfont.woff2") format("woff2"),
-          url("./fonts/visbyextrabold-webfont.woff") format("woff");
-        font-weight: bolder;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbyheavy_italic-webfont.woff2") format("woff2"),
-          url("./fonts/visbyheavy_italic-webfont.woff") format("woff");
-        font-weight: heavy;
-        font-style: italic;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbyheavy-webfont.woff2") format("woff2"),
-          url("./fonts/visbyheavy-webfont.woff") format("woff");
-        font-weight: heavy;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbyitalic-webfont.woff2") format("woff2"),
-          url("./fonts/visbyitalic-webfont.woff") format("woff");
-        font-weight: normal;
-        font-style: italic;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbylight-webfont.woff2") format("woff2"),
-          url("./fonts/visbylight-webfont.woff") format("woff");
-        font-weight: light;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbymedium-webfont.woff2") format("woff2"),
-          url("./fonts/visbymedium-webfont.woff") format("woff");
-        font-weight: medium;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "Visby";
-        src: url("./fonts/visbyregular-webfont.woff2") format("woff2"),
-          url("./fonts/visbyregular-webfont.woff") format("woff");
-        font-weight: regular;
-        font-style: normal;
-      }
-      /* FONT END */
-
       * {
         padding: 0;
         margin: 0;
@@ -165,26 +21,26 @@
         font-family: 'Visby';
       }
 
-          .footer-message{
+      .footer-message{
         max-width: 600px !important;
-    }
-    .footer-socialMedia{
-        padding-top: 0px !important;
-        /* padding-right: 18px; */
-        padding-left: 70px;
-    }
-    .downloadApp{
-        font-size: 18px;
-    }
+      }
+      .footer-socialMedia{
+          padding-top: 0px !important;
+          /* padding-right: 18px; */
+          padding-left: 70px;
+      }
+      .downloadApp{
+          font-size: 18px;
+      }
 
-    .footer-social-flex{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        padding-top:0px;
-        margin-top: -7px;
-    }
+      .footer-social-flex{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          padding-top:0px;
+          margin-top: -7px;
+      }
     </style>
   </head>
   <body style="padding-bottom: 60px; color: black; background-color: #f5f8fa">
